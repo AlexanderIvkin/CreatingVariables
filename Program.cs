@@ -10,16 +10,16 @@ namespace CreatingVariables
     {
         static void Main(string[] args)
         {
-            int variablesCount = 10;
-            bool existingBasicTypes = true;
+            int myAge = 35;
+            bool amIEvil = true;
             string nameLesson = ("Практика в создании переменных.");
-            float spentTime = 1.5f;
+            float spentTime = 6.7f;
             char desiredRating = 'A';
             uint desiredRatingNumber = 5;
-            ulong maxAttemptsNumber = ulong.MaxValue;
-            byte thisAttemptNumber = 1;
-            double piNumber = 3.141592653589793;
-            sbyte weatherOusideWindow = 21;
+            ulong maxAttempts = ulong.MaxValue;
+            byte attemptNumber = 1;
+            double numberPi = 3.141592653589793;
+            sbyte weatherOusideWindow = 19;
         }
     }
 }
